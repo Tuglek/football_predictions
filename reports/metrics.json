@@ -1,0 +1,47 @@
+{
+  "train_rows": 22653,
+  "test_rows": 3326,
+  "test_season": "2015/2016",
+  "accuracy": 0.4660252555622369,
+  "log_loss": 1.0351912405749057,
+  "tree_depth": 6,
+  "tree_leaves": 57,
+  "class_distribution_test": {
+    "HOME_WIN": 0.4387,
+    "AWAY_WIN": 0.3043,
+    "DRAW": 0.2571
+  },
+  "classification_report": {
+    "AWAY_WIN": {
+      "precision": 0.4429223744292237,
+      "recall": 0.2875494071146245,
+      "f1-score": 0.3487118034751348,
+      "support": 1012.0
+    },
+    "DRAW": {
+      "precision": 0.19298245614035087,
+      "recall": 0.012865497076023392,
+      "f1-score": 0.02412280701754386,
+      "support": 855.0
+    },
+    "HOME_WIN": {
+      "precision": 0.4777947932618683,
+      "recall": 0.8553803975325566,
+      "f1-score": 0.6131171702284451,
+      "support": 1459.0
+    },
+    "accuracy": 0.4660252555622369,
+    "macro avg": {
+      "precision": 0.3712332079438143,
+      "recall": 0.3852651005744015,
+      "f1-score": 0.3286505935737079,
+      "support": 3326.0
+    },
+    "weighted avg": {
+      "precision": 0.3939687451267108,
+      "recall": 0.4660252555622369,
+      "f1-score": 0.3812565533614365,
+      "support": 3326.0
+    }
+  }
+}
